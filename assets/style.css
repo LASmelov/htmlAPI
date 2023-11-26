@@ -81,10 +81,27 @@ justify-content: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+margin: 30px;
 
 }
 
+.resultsHTML1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+gap:20px;
+}
+
+.resulysec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 10px;
+gap:10px
+}
 
 .cont1{
 display: flex;
@@ -93,6 +110,7 @@ justify-content: center;
 flex-direction: column;
 padding: 10px;
 gap:10px;
+margin: 10px;
 border: solid black 1px;
 border-radius: 14%;
 }
@@ -102,6 +120,7 @@ border-radius: 14%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 10px;
     gap:10px;
     border: solid black 1px;
@@ -113,14 +132,24 @@ border-radius: 14%;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        flex-direction: column;
+margin: 20px;
         padding: 10px;
         gap:10px;
+width: 350px;
+height: 130px;
+        border: solid black 1px;
+        border-radius: 8%;
        
     }
 
+.resultsHTML2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin: 50px;
+}
 
-    
 
 .foot{
     display: flex;

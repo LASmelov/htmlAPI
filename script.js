@@ -98,8 +98,8 @@ function displayAlbum(data) {
       const albumItem = document.createElement('div');
       albumItem.innerHTML = `
       <section class="cont2">
-        ${item.title}
-        ${item.release_date}
+      <div>${item.title}</div>
+      <div>${item.release_date}</div>
         <img src="${item.cover_medium}" alt="${item.title}">
         <button class="show-tracks" data-album-id="${item.id}">Show Tracks</button>
         </section>
